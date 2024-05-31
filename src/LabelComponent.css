@@ -1,0 +1,46 @@
+.LabelDiv {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('/public/assets/blue_bg.png');
+}
+
+.goldLabels{
+    width: 40%;
+}
+
+.labelDeps_0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.labelBox{
+    width: 15%;
+}
+
+.parentLabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media  (max-width:768px){
+    .labelBox {
+        width: 35%;
+    }
+    .goldLabels {
+        width: 80%;
+    }
+}
+@media (max-width:425px) {
+    .labelBox {
+        width: 45%;
+    }
+    .goldLabels {
+        width: 90%;
+    }
+}

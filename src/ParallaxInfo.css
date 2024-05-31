@@ -1,0 +1,45 @@
+.parallaxBannerImg{
+    height: 50vh;
+}
+
+.palText{
+    color:#ffffff;
+    font-size: 18px;
+}
+.palTextBox{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palTextImg{
+    width: 45%;
+}
+
+@media (max-width:768px) {
+    .parallaxBannerImg{
+        height: 400px;
+    }
+    .palTextImg {
+        width: 65%;
+    }
+}
+@media (max-width:430px) {
+    .parallaxBannerImg {
+        height: 200px;
+    }
+
+    .palTextImg {
+        width: 85%;
+    }
+}
+@media (max-width:425px) {
+    .parallaxBannerImg{
+        height: 200px;
+    }
+    .palTextImg {
+        width: 85%;
+    }
+}

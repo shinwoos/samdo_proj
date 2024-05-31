@@ -1,0 +1,74 @@
+@media screen and (max-width: 320px) {
+    .mainBox {
+        background-size: cover;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px){
+        .mainBox {
+                background-size: cover;
+                height: 200px;
+            }
+}
+
+@media screen and (min-width: 768px) {
+    .mainBox {
+        background-size: cover;
+        height: 340px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .mainBox {
+        background-size: cover;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mainBox {
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .mainBox {
+        background-size: cover;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 2200px){
+.mainText {
+        width: 25%;
+        margin-right: 10%;
+    }
+
+    .mainCap {
+        width: 30%;
+
+    }
+}
+
+
+@media screen and (min-width: 3100px){
+.mainText {
+        width: 20%;
+        margin-right: 10%;
+    }
+
+    .mainCap {
+        width: 25%;
+
+    }
+}
+
+@media (min-width:3840px){
+    .mainCap {
+            width: 20%;
+    
+        }
+}

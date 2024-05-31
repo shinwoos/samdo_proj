@@ -1,0 +1,79 @@
+.graphTextBox{
+    text-align: center;
+}
+.graphBody{
+    position: relative;
+    font-size:15px;
+}
+.graphHeader{
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.graphText{
+    font-size: 3em;
+    text-align: center;
+    font-family: "songMyung";
+    color:rgb(0, 90, 171);
+    font-weight: 600;
+}
+.graphTextSize{
+    font-size:5em;
+}
+
+.graphMarkImg{
+    width: 20%;
+    position: absolute;
+    opacity:0.2;
+    top:5%;
+    right: 2%;
+}
+
+@font-face {
+    font-family: "songMyung";
+    font-weight: normal;
+    src: url("./fonts/SongMyung-Regular.ttf") format("truetype");
+}
+
+.graphBody{
+    background-color: #f3f3f3;
+}
+
+.graphStickBox{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.graphStickImg{
+    width: 40%;
+}
+
+@media (max-width:768px){
+    .graphText {
+        font-size: 1em;
+
+        }
+          
+    .graphTextSize {
+        font-size: 3em;
+    }
+
+        .graphStickImg {
+            width: 80%;
+        }
+}
+
+@media (max-width:425px) {
+    .graphText {
+        font-size: 1em;
+
+    }
+
+    .graphTextSize {
+        font-size: 2em;
+    }
+}
+

@@ -1,0 +1,30 @@
+.salesBox{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sales_cap_set{
+    width: 60%;
+}
+
+.salesSon{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+
+@media (max-width:768px) {
+
+    .sales_cap_set {
+            width: 70%;
+        }
+}
+
+@media (max-width:425px) {
+.sales_cap_set {
+        width: 90%;
+    }
+}

@@ -1,0 +1,267 @@
+body{
+    font-size:15px;
+ }
+
+.mainBox{
+    z-index: 10;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('/public/assets/samdo_alpha_main_banner.png');
+}
+
+.threeHeader{
+    text-align: center;
+    padding-top: 20px;
+}
+.threeHeaderMent{
+    width:30%;
+}
+
+.threeMentBackground {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.threeMentBox{
+    text-align: center;
+}
+
+.blueLogo{
+    width:338px;
+    height:100px;
+    margin-bottom: 2%;
+}
+.mainInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    width: 45%;
+    margin-right: 10%;
+}
+
+.mainCap {
+    width: 40vw;
+}
+
+.logoPort{
+    text-align: center;
+    padding-top:20px; 
+}
+
+.menuHeader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 3%;
+    background-color: #ffffff;
+}
+
+.menuHeaderLine{
+    width: 10%;
+}
+
+@font-face {
+    font-family: "BMEULJIROTTF";
+    font-weight: normal;
+    src: url("./fonts/BMEULJIROTTF.ttf") format("truetype");
+}
+
+.menuHeaderText{
+    padding-left: 10px;
+    font-size: 35px;
+    font-family: "BMEULJIROTTF";
+}
+
+.transitionItemImg{
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+}
+
+.tranImgBoxParent{
+        overflow: hidden;
+        width: 5600px;
+}
+
+.tranAni:hover .tranAnimation{
+    animation-play-state: paused;
+} 
+.tranAni{
+    padding-bottom:2%;
+}
+
+.frame{
+    overflow: hidden;
+}
+
+.menuMentBox{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+.menuMent{
+    width: 95%;
+}
+.mentItem0{
+    position: relative;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.mentItem1, .mentItem2, .mentItem3, .mentItem4, .mentItem5, .mentItem6{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.mentItemImg {
+    width: 40vw;
+    text-align: center;
+    float: left;
+}
+.fadeOutLocation{
+    position: absolute;
+    top: 15vw;
+    left: 29vw;
+    margin: auto;
+}
+
+.bottom-bar{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.blackLogo{
+    width: 9%;
+    padding-bottom: 1.5%;
+}
+.pad-bottom-05{
+    padding-bottom: 0.2%;
+}
+@media screen and (max-width: 1020px) {
+
+    .logoPort {
+        text-align: center;
+        padding-top: 5px;
+    }
+    .blueLogo {
+        width: 150px;
+        height: 45px;
+    }
+    .blackLogo {
+        width: 20%;
+        padding-bottom: 1.5%;
+    }
+
+}
+        .mentImg {
+            width: 33%;
+        }
+@media (max-width: 1750px){
+    .mentImg{
+        width:33%;
+    }
+    .mainCap{
+        width: 30%;
+    }
+}
+@media(max-width: 768px){
+    .threeMentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mentImg {
+          width: 98%;
+      }
+
+    .threeHeaderMent{
+        width:60%;
+    }
+
+    .menuHeaderText{
+        font-size: 25px;
+    }
+    .transitionItemImg {
+        width: 200px;
+        text-align: center;
+        float: left;
+        margin-right: 100px;
+    }
+    .tranAni:hover .tranAnimation {
+        animation-play-state:running;
+    }
+
+    .mentItemImg {
+        width: 75vw;
+        text-align: center;
+        float: left;
+    }
+    .fadeOutLocation {
+        position: absolute;
+        top: 25vw;
+        left: 11vw;
+        margin: auto;
+    }
+
+    .menuMentBox {
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40%;
+    }
+
+    .menuMent {
+        width: 160%;
+    }
+
+                .blackLogo {
+                    width: 30%;
+                    padding-bottom: 1.5%;
+                }
+}
+
+@media(max-width:550px){
+    .mentImg{
+        width: 105%;
+        height: 850px;
+    }   
+}
+
+@media(max-width:360px){
+    .bottom-bar {
+            background-color: #ffffff;
+            color: #000000;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-size: 0.8em;
+        }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}

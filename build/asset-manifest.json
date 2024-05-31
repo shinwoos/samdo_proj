@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa424ee5.css",
+    "main.js": "/static/js/main.09a49b72.js",
+    "static/js/453.db46b076.chunk.js": "/static/js/453.db46b076.chunk.js",
+    "static/media/TMONBlack.ttf": "/static/media/TMONBlack.ac3ea8e69b8eb9c8a390.ttf",
+    "static/media/BMEULJIROTTF.ttf": "/static/media/BMEULJIROTTF.68db235fd799591bb506.ttf",
+    "static/media/SongMyung-Regular.ttf": "/static/media/SongMyung-Regular.1bfcd536436055354fb6.ttf",
+    "static/media/samdo_alpha_main_banner.png": "/static/media/samdo_alpha_main_banner.3bbfcbf51afa6c2341db.png",
+    "static/media/blue_bg.png": "/static/media/blue_bg.c7e89fe337f0c4de0211.png",
+    "index.html": "/index.html",
+    "main.aa424ee5.css.map": "/static/css/main.aa424ee5.css.map",
+    "main.09a49b72.js.map": "/static/js/main.09a49b72.js.map",
+    "453.db46b076.chunk.js.map": "/static/js/453.db46b076.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa424ee5.css",
+    "static/js/main.09a49b72.js"
+  ]
+}

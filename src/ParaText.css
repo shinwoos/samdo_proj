@@ -1,0 +1,33 @@
+.black-bg{
+    background-color: #000000;
+}
+
+.flex-set1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pd-bot-top{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.doubleImage{
+    width: 25%;
+    padding: 2%;
+}
+
+@media (max-width:768px) {
+.doubleImage {
+        width: 75%;
+        padding: 2%;
+    }
+    .flex-set1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+}
