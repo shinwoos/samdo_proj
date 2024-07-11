@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 삼도 숙성회
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [삼도 숙성회 사이트 링크](https://samdosashimi.com/).
 
 ## Available Scripts
 
